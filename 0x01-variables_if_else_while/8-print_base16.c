@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+ * main - the main function that runs the program
+ * Return: always 0 (success)
+ */
+int main(void)
+{
+	int i;
+	char j;
+
+	for (i = 1 ; i < 10 ; i++)
+		putchar(i + '0');
+	for (j = 'a' ; j <= 'f' ; j++)
+		putchar(j);
+	putchar('\n');
+
+	return (0);
+}
