@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main - generates fibonnaci sequence
  *Return: Always 0
