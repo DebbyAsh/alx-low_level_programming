@@ -1,6 +1,19 @@
 #include "main.h"
 
 /**
+ * _strlen_recursion - function that returns the length of a string
+ * @s: string
+ * Return: string length
+ */
+
+int _strlen_recursion(char *s)
+{
+        return (*s ? (1 +  _strlen_recursion(++s)) : 0);
+
+}
+
+
+/**
  *palindrome - function that indicates if a number is a palindrome
  *@s: pointer to string
  *@p: position
@@ -19,6 +32,7 @@ int palindrome(char *s, int p)
 	}
 	return (0);
 }
+
 
 /**
  *is_palindrome - function that indicates if a number is a palindrome
