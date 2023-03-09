@@ -19,7 +19,6 @@ int number(int n, int root)
 /**
  * _sqrt_recursion - function that finds the square root of a number
  * @n: number to find the square root
- * @root: squareroot number to be found
  * Return: value
  */
 
